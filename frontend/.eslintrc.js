@@ -22,6 +22,7 @@ module.exports = {
     rules: {
         //support missing 'import React' error
         "react/react-in-jsx-scope": "off",
+        '@typescript-eslint/no-non-null-assertion': 'off',
         //allow jsx syntax in js file
         "react/jsx-filename-extension": [1, {extensions: [".ts", ".tsx"]}],
     }

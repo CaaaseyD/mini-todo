@@ -8,7 +8,7 @@ function PrivateRoute({children} : any) {
   } else if (loading) {
     return <p>Loading...</p>;
   } else if (!accessToken && !loading) {
-    return <p>You're not logged in</p>
+    return <p>You are not logged in</p>
   } else {
     return <p>Something went wrong</p>;
   }
