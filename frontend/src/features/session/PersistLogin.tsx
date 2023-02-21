@@ -2,7 +2,7 @@ import React from 'react'
 
 function PersistLogin() {
   return (
-    <div>PersistLogin</div>
+    <div>PersistLogin out</div>
   )
 }
 
