@@ -10,7 +10,7 @@ on:
     branches:
       - "**"
   pull_request:
-    branches: 
+    branches:
       - "**"
 jobs:
   test:
@@ -37,7 +37,7 @@ jobs:
       - name: Install Ruby and gems
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0.3'
+          ruby-version: '3.1.2'
           bundler-cache: true
       - name: Bundle install
         run: bundle install

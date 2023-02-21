@@ -6,3 +6,8 @@ Repository for a doorkeeper backend. To be used as a template for projects that 
   - Ruby On Rails
   - Devise
   - Doorkeeper
+
+- Frontend
+  - React
+  - Typescript
+  - Relux
